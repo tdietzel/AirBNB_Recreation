@@ -1,0 +1,42 @@
+#region {
+  border: none;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+#HeaderRight{
+  /* float:right; */
+  display: flex;
+}
+
+#headerRight button {
+  margin-right: 10px; /* Adjust the margin between buttons as needed */
+  border-radius: 50px;
+  border-color:grey;
+  color:black;
+}
+
+#headerRight .dropdown button {
+  color: grey;
+  background-color: white;
+}
+
+#searchButton button{
+  border-radius: 50px;
+  border-color:grey;
+  color:black;
+}
+
+#listHome :hover{
+  background-color: grey;
+}
+
+#searchButton svg {
+  color: rgb(219, 28, 124);
+}
+
+#listHome{
+  border: none;
+}
